@@ -8,7 +8,7 @@
 
   <name>jQuery AMD Library</name>
   <description>jQuery with AMD wrapper</description>
-  <url>https://github.com/znerd/jquery-ui</url>
+  <url>https://github.com/znerd/jquery-amd</url>
 
   <inceptionYear>2012</inceptionYear>
 
@@ -54,22 +54,6 @@
       </properties>
     </developer>
   </developers>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.znerd</groupId>
-        <artifactId>znerd-util</artifactId>
-        <version>0.7</version>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.10</version>
-        <scope>test</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <dependencies>
     <dependency>
