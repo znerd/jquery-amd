@@ -5792,7 +5792,7 @@ jQuery.fn.extend({
 								dataType: "script",
 								async: false,
 								global: false,
-								throws: true
+								throwz: true
 							});
 						} else {
 							jQuery.error("no ajax");
@@ -7333,7 +7333,7 @@ jQuery.extend({
 		username: null,
 		password: null,
 		cache: null,
-		throws: false,
+		throwz: false,
 		traditional: false,
 		headers: {},
 		*/
@@ -7914,7 +7914,7 @@ function ajaxConvert( s, response ) {
 				if ( conv !== true ) {
 
 					// Unless errors are allowed to bubble, catch and return them
-					if ( conv && s.throws ) {
+					if ( conv && s.throwz ) {
 						response = conv( response );
 					} else {
 						try {
