@@ -4,7 +4,7 @@
   <groupId>org.znerd</groupId>
   <artifactId>jquery-amd</artifactId>
   <packaging>pom</packaging>
-  <version>1.8.0-rc1-000</version>
+  <version>1.8.0-rc1.000-SNAPSHOT</version>
 
   <name>jQuery AMD Library</name>
   <description>jQuery with AMD wrapper</description>
